@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open sans", sans-serif;
+}
+
+body {
+  background-color: lightblue;
+}
+body div {
+  width: 600px;
+  margin: 40px auto auto;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: #c4bbfa;
+}
+body div header h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+body div main h2 {
+  text-align: center;
+}
+body div main div {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: auto;
+}
+body div main div label span {
+  display: block;
+}
+body div main div label input {
+  width: 380px;
+  padding: 8px;
+}
+body div main div input {
+  width: 400px;
+  padding: 8px;
+}
+body div main div p {
+  padding: 8px;
+  background-color: #ebe7ff;
+}
+
+/*# sourceMappingURL=styles.css.map */
